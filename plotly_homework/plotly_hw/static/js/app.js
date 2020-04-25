@@ -1,4 +1,5 @@
-url = 'data/samples.json'
+url = 'http://127.0.0.1:5000/'
+// url = 'data/samples.json'
 
 d3.json(url).then(function(data){
     // We create a function that creates the drop down menu options iteratively from the array 'data.names'
